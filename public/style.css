@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .projects .title::after{
     background: #111;
-    content: "Click on Github logo to view";
+    /* content: "Click on Github logo to view"; */
 }
 
 .services .serv-content .card{
@@ -393,6 +393,9 @@ section .title::after{
 /* .projects .title::after{
     content: "";
 } */
+.card{
+    color: white;
+}
 .projects .carousel .card{
     background: #222;
     border-radius: 6px;
