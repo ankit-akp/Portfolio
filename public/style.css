@@ -269,8 +269,9 @@ section .title::after{
 .services .title::after,
 .projects .title::after{
     background: #111;
-    content: "what i provide";
+    content: "Click on Github logo to view";
 }
+
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -380,11 +381,18 @@ section .title::after{
 .skills-content .right .MongoDb::before{
     width: 60%;
 }
+.skills-content .right .Angular::before {
+    width: 80%;
+}
+
+.skills-content .right .jQuery::before {
+    width: 80%;
+}
 
 /* projects section styling */
-.projects .title::after{
+/* .projects .title::after{
     content: "";
-}
+} */
 .projects .carousel .card{
     background: #222;
     border-radius: 6px;
